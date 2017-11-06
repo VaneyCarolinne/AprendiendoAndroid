@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vanes.calculadoraepa.MainActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/numeroA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NumeroA"
+        android:inputType="textPersonName|number"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <EditText
+        android:id="@+id/numeroB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NumeroB"
+        android:inputType="textPersonName|number"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/suma"
+            android:layout_width="109dp"
+            android:layout_height="58dp"
+            android:background="@drawable/plus"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <Button
+            android:id="@+id/resta"
+            android:layout_width="111dp"
+            android:layout_height="62dp"
+            android:background="@drawable/minus"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/multiplicar"
+            android:layout_width="115dp"
+            android:layout_height="61dp"
+            android:background="@drawable/multiply"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+        <Button
+            android:id="@+id/dividir"
+            android:layout_width="113dp"
+            android:layout_height="60dp"
+            android:background="@drawable/divide"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="309dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="192dp"
+        android:layout_height="82dp"
+        android:text="Resultado"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="413dp"/>
+</LinearLayout>
